@@ -1,0 +1,277 @@
+
+Aula 1 -> Base HTML + Formulário HTML
+
+
+
+HTML -> HyperText Markup Language
+(Linguagem de marcação de HiperTexto)
+
+
+nomedoarquivo.html
+
+
+
+
+
+
+Código HTML é montado por Tags.
+
+
+
+São formadas por sinal de < menor e maior >
+Com uma palavra entre estes dois.
+
+
+
+< menor
+> maior
+
+<palavra>
+
+
+
+
+
+<caixaDePapelao>
+segredos da mente milionária
+pai rico pai pobre
+</caixaDePapelao>
+
+
+Sempre quando uma tag HTML tem conteúdos depois da abertura dela, obrigatóriamente deve fechar esta tag.
+
+
+
+
+<palavra>
+
+
+
+
+
+
+Todo e qualquer arquivo HTML tem algumas tags por padrão.
+
+
+
+
+
+
+Quem executa código HTML é o navegador (firefox, chrome, opera), assim como também executam JAVASCRIPT e CSS.
+
+
+DTD -> Document Type Definition
+
+
+Identação de código
+
+Simplesmente é organizar o código.
+
+<meta>
+
+
+metadados -> São informações que ficam por trás de arquivos.
+
+
+https://www.asciitable.com/
+
+https://exif.tools/upload.php
+
+
+UTF-8
+
+
+Atributos HTML
+
+
+
+
+São palavras chaves que utilizamos dentro de tags de abertura para configurar aquela determinada tag.
+
+Estes atributos carregam uma aparência semelhante, eles sempre tem uma palavra, um sinal de igual e duas áspas duplas.
+
+
+<tag atributo="algumacoisa"></tag>
+
+
+
+
+
+
+
+nome="ismael"
+
+
+
+
+Existem duas classificações de atributos HTML
+
+
+
+
+Atributos Públicos
+
+São atributos que funcionam dentro de qualquer tag HTML.
+
+Exemplo:
+
+name=""
+
+Este atributo serve para você colocar um nome
+para qualquer tag html.
+
+
+
+Atributos Privados
+
+
+são atributos que só funcionam ou só tem sentido em determinadas tags HTML.
+
+
+exemplo:
+
+
+charset=""
+
+Este atributo serve para setar o tipo de caractere utilizado naquele site, este atributo é específico da tag <meta> do HTML.
+
+
+Regra: A tag <meta> só funciona dentro do espaço da tag <head> do html.
+
+
+
+https://www.w3schools.com/html/html_form_input_types.asp
+
+
+
+Qualquer coisa que você escreve dentro de uma input html nós chamamos de "valor da input".
+
+
+
+
+
+
+
+
+
+
+
+
+
+HTTP -> HyperText Transfer Protocol
+
+É um sistema/programa/"protocolo" que funciona na internet, cujo o objetivo dele é transferir informações de um lugar para outro lugar.
+
+
+
+
+
+Requisição e Resposta HTTP
+
+
+Em comparação, requisição HTTP é como se fosse os pedidos de clientes sendos anotados pelo garçom.
+
+
+As respostas é a entrega que o garçom faz para o cliente.
+
+
+Poliglota -> É uma pessoa que fala em diversas línguas diferentes.
+
+
+Métodos HTTP
+
+
+São maneiras diferentes de se fazer uma requisição HTTP.
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+
+
+
+
+
+Servidor é um computador potente que tem como objetivo servir/entregar algo para outros computadores/sistemas/clientes.
+
+
+Na verdade todo e qualquer site que existe está dentro de um computador chamado Servidor.
+
+
+
+Existe uma curiosidade, também tem como enviar dados utilizando o método HTTP GET, desde que seja apenas string/texto/palavras.
+
+Um detalhe interessante é que quando enviamos estas informações utilizando método GET os dados aparecem na URL, quando enviamos utilizando POST não aparecem na URL.
+
+
+
+
+Parâmetros de url/http
+
+
+
+
+Parâmetros de HTTP
+
+
+
+
+
+
+
+Variáveis em programação são como se fossem caixas de papelão, servem para guardar coisas dentro delas.
+
+Na linguagem de programação PHP por exemplo, para criar variáveis faz dessa maneira:
+
+
+
+$livros="segredos da mente milionária";
+
+
+
+
+
+
+
+Parâmetros de HTTP/URL é como se fosse uma variável.
+
+
+
+
+
+pesquisa=como fazer bolo
+
+
+GET /index.php?pesquisa=teste HTTP/1.1
+Host: yahoo.com
+
+
+
+
+
+
+https://www.google.com/?pesquisa=testando
+
+
+Todo primeiro parâmetro que aparece na URL sempre vem com um sinal de interrogação.
+
+Se tiver mais de um parâmetro, eles são separados por um e-comercial &
+
+
+paramum=conteudo&paramdois=conteúdo
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

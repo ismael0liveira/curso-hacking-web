@@ -1,0 +1,24 @@
+
+Aula 0 -> Introdução ao curso hacking web
+
+
+
+Tema: Aprendendo XSS como introdução a Hacking web
+
+Motivo e Benefício do curso: XSS é um tipo de
+vulnerabilidade/exploit muito comum de se encontrar
+e de se ouvir falar, muitos conhecem esse nome Popular,
+mas, você sabia que aprendendo a fundo o assunto XSS pode
+ser um grande passo para aprender diversas outras vulnerabilidades/
+exploits web? Isto porque XSS na realidade é um exploit que se
+aproveita da vulnerabilidade de falta de limpeza da entrada do
+usuário, neste curso você irá compreender melhor como isto
+funciona e assim irá observar que outros nomes populares como 
+SQL Injection e Local File Inclusion são semelhantes a idéia por
+trás de XSS, ou seja, com este curso você conseguirá ter um norte
+de estudos para o hacking web. :)
+
+
+
+
+
