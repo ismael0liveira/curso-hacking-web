@@ -1,0 +1,138 @@
+
+Aviso:
+
+Na aula anterior foi cortado um pedaço do código.
+
+<!DOCTYPE html>
+
+
+Aula 2 -> Formulário HTML + PHP (criando site vulnerável)
+
+
+PHP -> Personal Home Page
+
+
+
+Servidor Local
+
+
+É você transformar o seu computador como um servidor local de sua própria rede da tua casa.
+
+
+
+
+
+Existem programas especiais para estes computadores que chamamos de servidores.
+
+
+Estes programas por serem especiais para estes computadores, carregam o mesmo nome, também se chamam servidores.
+
+Apache Server -> Configuração de Funcionamento HTTP
+Nginx 
+tomcat -> JSP java server pages
+
+
+
+XAMPP 
+
+
+
+
+Quando você instalar o XAMPP ele automáticamente cria algumas pastas e arquivos em seu computador.
+
+
+No windows:
+
+
+
+c:/xampp/htdocs/dashboard/
+
+
+Dentro desta pasta dashboard, você vai apagar tudo que tiver dentro dela.
+
+
+
+no linux:
+
+/opt/lampp/htdocs/dashboard
+
+
+
+dentro desta pasta dashboard é onde você vai colocar todos os arquivos que estamos criando aqui, arquivos de html e php.
+
+
+
+
+apache - start
+
+
+
+no linux:
+
+sudo su
+
+cd /opt/lampp
+
+./xampp start
+
+
+
+
+Após ligar o xampp e fazer todo esse processo, vá no navegador e digite:
+
+
+http://localhost
+
+
+
+
+
+
+php -S localhost:8080
+
+
+
+
+
+Não encontramos nenhum resultado para ************
+
+
+
+
+
+
+Variáveis Globais/Default
+
+
+São variáveis padrão da linguagem PHP, já vem na linguagem de programação essas variáveis.
+
+
+Essas variáveis carregam uma idéia semelhante as variáveis normais, salvo algumas excessões como é o caso da aparência.
+
+$palavra=""
+
+$_PALAVRA["conteúdo"];
+
+$_GET[]
+$_POST[]
+
+
+
+Concatenação de string -> Juntar
+
+
+
+"texto um"
+"texto dois"
+
+
+"texto um "." texto dois"
+
+"texto um texto dois"
+
+http://localhost:8080/pesquisa.php?pesquisa=como+fazer+bolo%3F
+
+
+
+
+
