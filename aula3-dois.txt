@@ -1,0 +1,134 @@
+
+
+Os problemas de exploit HTML/CSS Injection e XSS acontecem quando o hacker tem um lugar para escrever / para inserir dados e o que ele escreve aparece de volta na tela do navegador, neste ponto, ele tenta injetar HTML/CSS ou script de javascript.
+
+
+Estes 3 são exploits lado Client-Side
+
+Para conseguir encontrar estes 3, basta procurar algum lugar onde você escreve e o que você escreve volta para você na tela do navegador.
+
+
+
+
+
+
+
+XSS -> Cross Site Scripting
+(Scripting Entre Sites)
+
+
+Este "x" vem de uma regra onde qualquer vulnerabilidade/exploit/ataque que tenha no nome "cross alguma coisa" obrigatóriamente terá este "X" na abreviação.
+
+
+XST -> Cross Site Tracing
+XSF -> Cross Scripting Frame
+XSRF -> Cross Site Request Forgery
+XSS -> Cross Site Scripting
+
+https://xsleaks.dev/
+
+https://www.php.net/manual/en/filter.filters.sanitize.php
+https://www.php.net/manual/en/function.filter-input.php
+
+
+
+Cross Site -> Entre Sites
+
+
+Site -> Domínio
+
+(facebook.com google.com)
+
+
+XDS -> Cross Domain Scripting
+
+
+Scripting -> Linguagens de script web -> Linguagens de script/programação para navegadores.
+
+
+Linguagem Javascript 
+
+Existem outras linguagens de script/programação para navegadores, além de javascript, como por exemplo VBScript ou PYscript.
+
+
+Já observando que existem outras linguagens de script para navegador além de 
+javascript, percebe-se que XSS não é limitado apenas a javascript.
+
+
+XSS é a idéia de um único script web (javascript) que consegue interagir ao mesmo tempo com dois ou mais sites.
+
+
+Muitas pessoas geralmente confundem XSS com SCRIPT INJECTION.
+
+
+Script Injection é a possibilidade de injetar um código de script em um site e este código de script conseguir executar, mas com um detalhe, este código só vai interagir com um site apenas que é o próprio site vulnerável.
+
+
+Pelo fato de você conseguir ter um script injection, ao mesmo tempo terá a possibilidade de um XSS, por isto que geralmente quando se tem um script injection automáticamente já é considerado/chamado de XSS.
+
+
+
+
+
+
+<script>document.location="http://pudim.com.br";</script>
+
+
+
+Existem diferentes contextos para CROSS SITE SCRIPTING - XSS
+
+
+XSS REFLETIDO
+
+É a capacidade de o atacante injetar um código de script malicioso e ao mesmo tempo este código injetado está em uma idéia de reflexo como se fosse de espelho e também existe a possibilidade do hacker enviar este código malicioso para vítimas.
+
+Por exemplo: Infectar uma URL
+
+
+XSS ARMAZENADO/STORAGE
+
+
+É a capacidade do atacante injetar um código de script malicioso em um sitee ele executa e ao mesmo tempo fica armazenado/gravado no site.
+
+
+SELF-XSS
+
+É a capacidade do hacker conseguir injetar um código de script malicioso em um site, o código executa, mas não existe a possibilidade de enviar este código para outras pessoas, só vai funcionar para o próprio hacker.
+
+
+
+Existe um outro contexto que também é considerado SELF-XSS
+
+O contexto onde o hacker com más intenções induz/engana a vítima a executar um código malicioso de script no console do navegador dela.
+
+
+
+<script>console.log("Se alguém falou para você executar um código aqui, não execute, é golpe!");</script>
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/CORS
+
+
+https://developer.mozilla.org/pt-BR/docs/Web/API/XMLHTTPRequest
+
+https://pyscript.net/
+
+
+https://pt.wikipedia.org/wiki/VBScript
+
+
+
+
+
+https://www.facebook.com/selfxss 
+
+
+
+
+
+
+
+
+
+

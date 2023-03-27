@@ -1,0 +1,34 @@
+
+
+Aula 6 -> Automação em bash para XSS
+(Findomain + GAU + Hakrawler + GREP + SED + DALFOX/XSSTrike [aula avançada])
+
+
+
+
+Findomain -> Coleta de subdomínios
+
+site.com
+
+https://certificate.transparency.dev/
+
+GAU -> Get All URLS
+
+
+https://en.wikipedia.org/wiki/Web_crawler
+
+
+https://site.com/?param=<script>alert(1)</script>
+
+
+https://github.com/tomnomnom/httprobe
+
+
+
+httpx 
+
+
+
+
+
+

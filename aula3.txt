@@ -1,0 +1,63 @@
+
+
+
+
+
+Aula 3 -> XSS, o que é? (Explicação Profunda sobre XSS [Aulão XSS])
+
+
+Uma vulnerabilidade é algo que está suscetível a um ataque, pode vir algo ou alguém e tirar proveito disso, explorar isto.
+
+
+
+HTML/CSS Injection e XSS na realidade NÃO SÃO VULNERABILIDADES, são EXPLOITS.
+
+
+
+No dia a dia costumamos chamar estes de "vulnerabilidades" apenas para ficar mais fácil para outros entenderem.
+
+
+https://cwe.mitre.org/data/definitions/20.html
+
+https://cwe.mitre.org/data/definitions/79.html
+
+
+https://pt.wikipedia.org/wiki/Exploit_(seguran%C3%A7a_de_computadores)
+
+https://www.itfacil.com.br/ameaca-vulnerabilidade-risco-sopa-de-letrinhas
+
+https://pt.wikipedia.org/wiki/Vulnerabilidade_(computa%C3%A7%C3%A3o)
+
+
+https://pt.wikipedia.org/wiki/Vulnerabilidade_social
+
+
+https://en.wikipedia.org/wiki/Vulnerability
+
+
+https://owasp.org/www-community/attacks/xss/
+
+https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/11-Client_Side_Testing/05-Testing_for_CSS_Injection
+
+https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/03-Testing_for_HTML_Injection
+
+
+
+
+
+
+'
+"
+<
+>
+
+HTML Encoding
+
+
+
+
+
+
+
+
+

